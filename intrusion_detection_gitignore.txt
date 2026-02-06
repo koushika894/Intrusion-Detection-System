@@ -1,0 +1,53 @@
+# Network Intrusion Detection Project - Git Ignore
+# Rename this file to: .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+
+# Data files (uncomment if datasets are too large for GitHub)
+# Train_data.csv
+# Test_data.csv
+# *.csv
+
+# Model artifacts
+*.pkl
+*.h5
+*.pt
+*.pth
+models/
+saved_models/
+
+# Logs and databases
+*.log
+*.db
+logs/
+optuna_studies/
+
+# Environment variables
+.env
+.env.local
